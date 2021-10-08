@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+/* headings and logo */
+h1 {
+    font-family: "roboto", sans-serif;
+    color: #0463bb;
+    letter-spacing: 2px;
+}
+  
+h2 {
+    font-family: "roboto", sans-serif;
+    color: #ce5108;
+    letter-spacing: 2px;
+}
+  
+h3 {
+    font-family: "roboto", sans-serif;
+    color: #0463bb;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+  
+h4 {
+    font-family: "roboto", sans-serif;
+    color: #800000;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+  
+#logo {
+    font-family: "Shadows Into Light", sans-serif;
+    color: #ce5108;
+    float: left;
+    font-size: 220%;
+    margin-left: 30px;
+}
