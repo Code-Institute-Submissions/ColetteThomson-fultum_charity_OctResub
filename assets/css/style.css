@@ -157,7 +157,7 @@ i {
 /* M E D I A   Q U E R I E S   for tablets and mobiles */
 
 /* T A B L E T S */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
 
   /* homepage */
   .image_homepage {
@@ -191,8 +191,8 @@ i {
   }
 }
 
-/* M O B I L E S  (screen-width 321px) */
-@media screen and (max-width: 321px) {
+/* M O B I L E S  (screen-width 320px) */
+@media screen and (max-width: 320px) {
   
   /* homepage */
   .image_homepage {
