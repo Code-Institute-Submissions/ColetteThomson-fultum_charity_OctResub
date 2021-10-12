@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+/* L A P T O P (screen size width: 1024px) */
+
 * {
   margin: 0;
   padding: 0;
@@ -173,8 +175,8 @@ i {
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_426.jpg);
-    max-width: 320px;
-    height: 267px;
+    max-width: 426px;
+    height: 356px;
   }
 }
 
