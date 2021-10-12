@@ -91,8 +91,9 @@ h4 {
 
 /* homepage */
 .image_homepage {
-  max-width: 100%;
-  height: auto;
+  content: url(../images/supporting_hands_laptop.jpg);
+  max-width: 1024px;
+  height: 600px;
   position: absolute;
   z-index: -1;
 }
@@ -156,15 +157,57 @@ i {
 /* T A B L E T S */
 @media screen and (max-width: 769px) {
 
+  /* homepage */
+  .image_homepage {
+    content: url(../images/supporting_hands_tablet.jpg);
+    max-width: 768px;
+    height: 642px;
+  }
 }
 
 
 
-/* M O B I L E S */
+/* M O B I L E S  (screen-width 426px) */
 @media screen and (max-width: 426px) {
+  
+  /* homepage */
+  .image_homepage {
+    content: url(../images/supporting_hands_mobile_426.jpg);
+    max-width: 320px;
+    height: 267px;
+  }
+}
+
+/* M O B I L E S  (screen-width 376px */
+@media screen and (max-width: 376px) {
+  
+  /* homepage */
+  .image_homepage {
+    content: url(../images/supporting_hands_mobile_376.jpg);
+    max-width: 376px;
+    height: 314px;
+  }
+}
+
+/* M O B I L E S  (screen-width 321px) */
+@media screen and (max-width: 321px) {
+  
+  /* homepage */
+  .image_homepage {
+    content: url(../images/supporting_hands_mobile_320.jpg);
+    max-width: 320px;
+    height: 267px;
+  }
 }
 
 
 /* L A R G E   L A P T O P  Screens between 1025px and 1441px */
 @media (max-width: 1441px) and (min-width: 1025px) {
+
+  /* homepage */
+  .image_homepage {
+    content: url(../images/supporting_hands_large-laptop.jpg);
+    max-width: 1440px;
+    height: 674px;
+  }
 }
