@@ -91,7 +91,7 @@ h4 {
 
 /* homepage */
 .image_homepage {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   position: absolute;
   z-index: -1;
@@ -113,4 +113,58 @@ h4 {
   color: #0463bb;
   letter-spacing: 4px;
   font-size: 35px;
+}
+
+/* footer */
+#footer {
+  height: 65px;
+  width: 100%;
+  font-size: x-small;
+  margin: 0;
+  background-color: lightgrey;
+  color: black;
+  position: absolute;
+  clear: both;
+}
+
+.social_networks {
+  padding-right: 40px;
+}
+
+.social_networks > li {
+  display: inline;
+}
+
+.social_networks i {
+  font-size: 250%;
+  padding: 25px;
+  padding-top: 15px;
+  color: black;
+}
+
+i {
+  padding-top: 1px;
+  float: right;
+}
+
+.address {
+  padding-left: 30px;
+}
+
+/* M E D I A   Q U E R I E S   for tablets and mobiles */
+
+/* T A B L E T S */
+@media screen and (max-width: 769px) {
+
+}
+
+
+
+/* M O B I L E S */
+@media screen and (max-width: 426px) {
+}
+
+
+/* L A R G E   L A P T O P  Screens between 1025px and 1441px */
+@media (max-width: 1441px) and (min-width: 1025px) {
 }
