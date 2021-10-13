@@ -94,7 +94,7 @@ h4 {
 /* homepage */
 .image_homepage {
   content: url(../images/supporting_hands_laptop.jpg);
-  max-width: 1024px;
+  max-width: 100%;
   height: 600px;
   position: absolute;
   z-index: -1;
@@ -106,7 +106,7 @@ h4 {
   margin: 50px;
   padding: 20px;
   max-height: 300px;
-  max-width: 850px;
+  max-width: 880px;
   background-color:rgba(255, 255, 255, 0.7);
   z-index: 2;
   line-height: 60px;
@@ -162,7 +162,7 @@ i {
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_tablet.jpg);
-    max-width: 768px;
+    max-width: 100%;
     height: 642px;
   }
 }
@@ -175,7 +175,7 @@ i {
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_426.jpg);
-    max-width: 426px;
+    max-width: 100%;
     height: 356px;
   }
 }
@@ -186,7 +186,7 @@ i {
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_376.jpg);
-    max-width: 376px;
+    max-width: 100%;
     height: 314px;
   }
 }
@@ -197,7 +197,7 @@ i {
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_320.jpg);
-    max-width: 320px;
+    max-width: 100%;
     height: 267px;
   }
 }
@@ -209,7 +209,7 @@ i {
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_large-laptop.jpg);
-    max-width: 1440px;
+    max-width: 100%;
     height: 674px;
   }
 }
