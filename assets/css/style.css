@@ -103,6 +103,26 @@ h4 {
   word-wrap: break-word;
 }
 
+.byline_what-we-do {
+  height: 30px;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffca4b;
+  z-index: 4;
+}
+
+.byline_what-we-do > h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 120%;
+  letter-spacing: normal;
+  color: black;
+  word-wrap: break-word;
+}
+
 /* container on top of all pages */  
 #container_homepage {
   height: 645px;
@@ -152,6 +172,16 @@ h4 {
   text-align: center;
 }
 
+/* what we do page */
+.image_what-we-do {
+  content: url(../images/group_of_people_laptop.jpg);
+  max-width: 100%;
+  height: 320px;
+  margin-top: 45px;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+}
 
 
 /* footer */
@@ -256,6 +286,12 @@ i {
     font-size: 25px;
   }
 
+  /* what we do page */
+  .image_what-we-do {
+    content: url(../images/group_of_people_laptop.jpg);
+    max-width: 100%;
+    height: 240px;
+  }
 }
 
 
@@ -341,6 +377,13 @@ i {
   .overlay_homepage > h4 {
     letter-spacing: normal;
     font-size: 18px;
+  }
+
+  /* what we do page */
+  .image_what-we-do {
+    content: url(../images/group_of_people_mobile_426.jpg);
+    max-width: 100%;
+    height: 133px;
   }
 
   /* footer */
@@ -445,6 +488,13 @@ i {
     font-size: 17px;
   }
 
+  /* what we do page */
+  .image_what-we-do {
+    content: url(../images/group_of_people_mobile_376.jpg);
+    max-width: 100%;
+    height: 117px;
+  }
+
   /* footer */
   #footer {
     height: 65px;
@@ -547,6 +597,13 @@ i {
     font-size: 15px;
   }
 
+  /* what we do page */
+  .image_what-we-do {
+    content: url(../images/group_of_people_mobile_320.jpg);
+    max-width: 100%;
+    height: 100px;
+  }
+
   /* footer */
   #footer {
     height: 65px;
@@ -575,7 +632,6 @@ i {
 
   /* 'banner' across top of all pages */
   .byline_homepage > h2 {
-    font-family: "poppins", sans-serif;
     font-size: 125%;
   }
 
@@ -605,5 +661,11 @@ i {
     height: 660px;
     }
 
+  /* what we do page */
+  .image_what-we-do {
+    content: url(../images/group_of_people_large_laptop.jpg);
+    max-width: 100%;
+    height: 347px;
+  }
   
 }
