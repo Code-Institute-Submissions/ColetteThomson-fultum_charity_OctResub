@@ -137,7 +137,6 @@ h4 {
 }
 
 .overlay_homepage > h3 {
-  /*color: #0463bb;*/
   color: #800000;
   letter-spacing: 3px;
   font-size: 22px;
@@ -214,11 +213,20 @@ i {
     margin-right: 1em;
   }
 
+  /* container on top of all pages */  
+  #container_homepage {
+    height: 645px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
   /* 'banner' across top of all pages */
   .byline_homepage {
-    height: 3.125em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    height: 1.875em;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
   }
 
   .byline_homepage > h2 {
@@ -292,9 +300,9 @@ i {
 
   /* 'banner' across top of all pages */
   .byline_homepage {
-    height: 62px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 1.5625em;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
   }
 
   .byline_homepage > h2 {
@@ -302,12 +310,17 @@ i {
     letter-spacing: normal;
   }
 
+  /* container on top of all pages */  
+  #container_homepage {
+    height: 385px;
+  }
 
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_426.jpg);
     max-width: 100%;
     height: 356px;
+    margin-top: 1.875em;
   }
 
   .overlay_homepage {
@@ -330,6 +343,24 @@ i {
     font-size: 18px;
   }
 
+  /* footer */
+  #footer {
+    height: 65px;
+  }
+
+  .social_networks {
+    padding-right: 0.625em;
+  }
+
+  .social_networks i {
+    font-size: 200%;
+    padding: 0.9375em;
+    padding-top: 1.25em;
+  }
+
+  .address {
+    padding-left: 1.25em;
+  }
 }
 
 
@@ -367,19 +398,24 @@ i {
     float: right;
     padding: 0.625em;
     margin-right: 0;
-    margin-left: 5px;
+    margin-left: 0.3125em;
   }
 
   /* 'banner' across top of all pages */
   .byline_homepage {
-    height: 62px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 20px;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
   }
 
   .byline_homepage > h2 {
-    font-size: 90%;
+    font-size: 84%;
     letter-spacing: normal;
+  }
+
+  /* container on top of all pages */  
+    #container_homepage {
+      height: 340px;
   }
 
   /* homepage */
@@ -390,7 +426,7 @@ i {
   }
 
   .overlay_homepage {
-    margin-top: 5.625em;
+    margin-top: 5em;
     margin-left: 1.25em;
     margin-right: 1.25em;
     padding: 0.3125em;
@@ -407,6 +443,25 @@ i {
   .overlay_homepage > h4 {
     letter-spacing: normal;
     font-size: 17px;
+  }
+
+  /* footer */
+  #footer {
+    height: 65px;
+  }
+
+  .social_networks {
+    padding-right: 0.625em;
+  }
+
+  .social_networks i {
+    font-size: 190%;
+    padding: 0.75em;
+    padding-top: 1.25em;
+  }
+
+  .address {
+    padding-left: 1.25em;
   }
 
 }
@@ -449,9 +504,9 @@ i {
 
   /* 'banner' across top of all pages */
   .byline_homepage {
-    height: 62px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 40px;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
   }
 
   .byline_homepage > h2 {
@@ -459,20 +514,26 @@ i {
     letter-spacing: normal;
   }
 
+  /* container on top of all pages */  
+  #container_homepage {
+    height: 315px;
+  }
+
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_320.jpg);
     max-width: 100%;
     height: 267px;
+    margin-top: 3.125em;
   }
 
   .overlay_homepage {
-    margin-top: 5.625em;
+    margin-top: 4.375em;
     margin-left: 0.625em;
     margin-right: 0.625em;
     padding: 0.3125em;
     max-height: 330px;
-    max-width: 326px;
+    max-width: 300px;
     line-height: 24px;
   }
   
@@ -486,6 +547,24 @@ i {
     font-size: 15px;
   }
 
+  /* footer */
+  #footer {
+    height: 65px;
+  }
+
+  .social_networks {
+    padding-right: 0.3125em;
+  }
+
+  .social_networks i {
+    font-size: 190%;
+    padding: 0.5625em;
+    padding-top: 1.25em;
+  }
+
+  .address {
+    padding-left: 0.625em;
+  }
 
 }
 
@@ -509,13 +588,22 @@ i {
 
   .overlay_homepage {
     position: relative;
-    margin-left: 15.625em;
-    margin-right: 15.625em;
+    margin-left: 14.375em;
+    margin-right: 14.375em;
+    max-width: 860px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+
+  .overlay_homepage > h3 {
+    font-size: 30px;
+    line-height: 40px;
   }
 
   /* container on top of all pages */  
-#container_homepage {
-  height: 660px;
-  }
+  #container_homepage {
+    height: 660px;
+    }
 
+  
 }
