@@ -82,6 +82,27 @@ h4 {
   border-bottom: 1px solid #3a3a3a;
 }
 
+/* 'banner' across top of all pages */
+.byline_homepage {
+  height: 30px;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffca4b;
+  z-index: 3;
+}
+
+.byline_homepage > h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 120%;
+  letter-spacing: normal;
+  color: black;
+  word-wrap: break-word;
+}
+
 /* container on top of all pages */  
 #container_homepage {
   height: 645px;
@@ -132,28 +153,6 @@ h4 {
   text-align: center;
 }
 
-/* 'banner' across top of all pages */
-.byline_homepage {
-  height: 30px;
-  width: 100%;
-  margin: 0;
-  position: absolute;
-  left: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #ffca4b;
-  z-index: 3;
-}
-
-.byline_homepage > h2 {
-  font-family: "poppins", sans-serif;
-  font-size: 120%;
-  letter-spacing: normal;
-  color: black;
-  word-wrap: break-word;
-}
-
-
 
 
 /* footer */
@@ -192,10 +191,41 @@ i {
   padding-left: 30px;
 }
 
+
+
 /* M E D I A   Q U E R I E S   for tablets and mobiles */
 
 /* T A B L E T S */
 @media screen and (max-width: 768px) {
+
+  /* navigation menu */
+  #menu,
+  #logo {
+    line-height: 50px;
+  }
+
+  #menu {
+    font-size: 90%;
+    letter-spacing: 2px;
+  }
+
+  #menu li {
+    float: right;
+    margin-right: 1em;
+  }
+
+  /* 'banner' across top of all pages */
+  .byline_homepage {
+    height: 3.125em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .byline_homepage > h2 {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-size: 110%;
+  }
 
   /* homepage */
   .image_homepage {
@@ -203,46 +233,272 @@ i {
     max-width: 100%;
     height: 642px;
   }
+
+  .overlay_homepage {
+    margin-top: 10em;
+    margin-left: 4.375em;
+    margin-right: 4.375em;
+  }
+
+  .overlay_homepage > h3 {
+    font-size: 20px;
+  }
+  
+  .overlay_homepage > h4 {
+    font-size: 25px;
+  }
+
 }
 
 
 
 /* M O B I L E S  (screen-width 426px) */
 @media screen and (max-width: 426px) {
-  
+
+  /* headings and logo */
+  #logo {
+    font-size: 130%;
+    margin-left: 1em;
+  }
+
+  h1 {
+    letter-spacing: normal;
+  }
+
+  /* navigation menu */
+  #menu,
+  #logo {
+    line-height: 30px;
+  }
+
+  #menu {
+    float: left;
+    font-size: 100%;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #menu ul {
+    float: right;
+  }
+
+  #menu li {
+    float: right;
+    padding: 0.8125em;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  /* 'banner' across top of all pages */
+  .byline_homepage {
+    height: 62px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .byline_homepage > h2 {
+    font-size: 90%;
+    letter-spacing: normal;
+  }
+
+
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_426.jpg);
     max-width: 100%;
     height: 356px;
   }
+
+  .overlay_homepage {
+    margin-top: 5.625em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    padding: 0.625em;
+    max-height: 330px;
+    max-width: 366px;
+    line-height: 24px;
+  }
+  
+  .overlay_homepage > h3 {
+    letter-spacing: normal;
+    font-size: 17px;
+  }
+  
+  .overlay_homepage > h4 {
+    letter-spacing: normal;
+    font-size: 18px;
+  }
+
 }
+
+
 
 /* M O B I L E S  (screen-width 376px */
 @media screen and (max-width: 376px) {
   
+  /* headings and logo */
+  #logo {
+    font-size: 130%;
+    margin-left: 1em;
+  }
+
+  h1 {
+    letter-spacing: normal;
+  }
+
+  /* navigation menu */
+  #menu,
+  #logo {
+    line-height: 30px;
+  }
+
+  #menu {
+    float: left;
+    font-size: 85%;
+    letter-spacing: normal;
+  }
+
+  #menu ul {
+    float: right;
+  }
+
+  #menu li {
+    float: right;
+    padding: 0.625em;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  /* 'banner' across top of all pages */
+  .byline_homepage {
+    height: 62px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .byline_homepage > h2 {
+    font-size: 90%;
+    letter-spacing: normal;
+  }
+
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_376.jpg);
     max-width: 100%;
     height: 314px;
   }
+
+  .overlay_homepage {
+    margin-top: 5.625em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    padding: 0.3125em;
+    max-height: 330px;
+    max-width: 326px;
+    line-height: 24px;
+  }
+  
+  .overlay_homepage > h3 {
+    letter-spacing: normal;
+    font-size: 16px;
+  }
+  
+  .overlay_homepage > h4 {
+    letter-spacing: normal;
+    font-size: 17px;
+  }
+
 }
 
 /* M O B I L E S  (screen-width 320px) */
 @media screen and (max-width: 320px) {
   
+  /* headings and logo */
+  #logo {
+    font-size: 130%;
+    margin-left: 1em;
+  }
+
+  h1 {
+    letter-spacing: normal;
+  }
+
+  /* navigation menu */
+  #menu,
+  #logo {
+    line-height: 30px;
+  }
+
+  #menu {
+    float: left;
+    font-size: 80%;
+    letter-spacing: normal;
+  }
+
+  #menu ul {
+    float: right;
+  }
+
+  #menu li {
+    float: right;
+    padding: 0.5625em;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  /* 'banner' across top of all pages */
+  .byline_homepage {
+    height: 62px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .byline_homepage > h2 {
+    font-size: 87%;
+    letter-spacing: normal;
+  }
+
   /* homepage */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_320.jpg);
     max-width: 100%;
     height: 267px;
   }
+
+  .overlay_homepage {
+    margin-top: 5.625em;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+    padding: 0.3125em;
+    max-height: 330px;
+    max-width: 326px;
+    line-height: 24px;
+  }
+  
+  .overlay_homepage > h3 {
+    letter-spacing: normal;
+    font-size: 15px;
+  }
+  
+  .overlay_homepage > h4 {
+    letter-spacing: normal;
+    font-size: 15px;
+  }
+
+
 }
+
 
 
 /* L A R G E   L A P T O P  Screens between 1025px and 1441px */
 @media (max-width: 1441px) and (min-width: 1025px) {
+
+  /* 'banner' across top of all pages */
+  .byline_homepage > h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 125%;
+  }
 
   /* homepage */
   .image_homepage {
@@ -253,9 +509,8 @@ i {
 
   .overlay_homepage {
     position: relative;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding: 15px;
+    margin-left: 15.625em;
+    margin-right: 15.625em;
   }
 
   /* container on top of all pages */  
