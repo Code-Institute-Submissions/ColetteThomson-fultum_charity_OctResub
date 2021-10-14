@@ -3,6 +3,7 @@
 
 /* L A P T O P (screen size width: 1024px) */
 
+/* logo, headings and body */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,6 @@ body {
   color: #3a3a3a;
 }
 
-/* headings and logo */
 h1 {
     font-family: "roboto", sans-serif;
     color: #0463bb;
@@ -82,7 +82,17 @@ h4 {
   border-bottom: 1px solid #3a3a3a;
 }
 
-/* 'banner' across top of all pages */
+/* HOME page */
+/* container on top of home page */  
+#container_homepage {
+  height: 645px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* 'banner' across top of homepage */
 .byline_homepage {
   height: 30px;
   width: 100%;
@@ -103,36 +113,7 @@ h4 {
   word-wrap: break-word;
 }
 
-.byline_what-we-do {
-  height: 30px;
-  width: 100%;
-  margin: 0;
-  position: absolute;
-  left: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #ffca4b;
-  z-index: 4;
-}
-
-.byline_what-we-do > h2 {
-  font-family: "poppins", sans-serif;
-  font-size: 120%;
-  letter-spacing: normal;
-  color: black;
-  word-wrap: break-word;
-}
-
-/* container on top of all pages */  
-#container_homepage {
-  height: 645px;
-  width: 100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-/* homepage */
+/* image on home page */
 .image_homepage {
   content: url(../images/supporting_hands_laptop.jpg);
   max-width: 100%;
@@ -143,6 +124,7 @@ h4 {
   z-index: -1;
 }
 
+/* main text overlay on home page */
 .overlay_homepage {
   position: relative;
   margin-top: 150px;
@@ -172,7 +154,8 @@ h4 {
   text-align: center;
 }
 
-/* what we do page */
+/* WHAT WE DO page */
+/* image on what we do page */
 .image_what-we-do {
   content: url(../images/group_of_people_laptop.jpg);
   max-width: 100%;
@@ -183,6 +166,26 @@ h4 {
   z-index: -1;
 }
 
+/* 'banner' across top of what we do page */
+.byline_what-we-do {
+  height: 26px;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  background-color: #ffca4b;
+  z-index: 4;
+}
+
+.byline_what-we-do > h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 120%;
+  letter-spacing: normal;
+  color: black;
+  word-wrap: break-word;
+}
 
 /* footer */
 #footer {
@@ -243,7 +246,8 @@ i {
     margin-right: 1em;
   }
 
-  /* container on top of all pages */  
+  /* HOME page */
+  /* container on top of home page */  
   #container_homepage {
     height: 645px;
     width: 100%;
@@ -252,7 +256,7 @@ i {
     padding: 0;
   }
 
-  /* 'banner' across top of all pages */
+  /* 'banner' across top of homepage */
   .byline_homepage {
     height: 1.875em;
     padding-top: 0.625em;
@@ -265,13 +269,14 @@ i {
     font-size: 110%;
   }
 
-  /* homepage */
+  /* image on home page */
   .image_homepage {
     content: url(../images/supporting_hands_tablet.jpg);
     max-width: 100%;
     height: 642px;
   }
 
+  /* main text overlay on home page */
   .overlay_homepage {
     margin-top: 10em;
     margin-left: 4.375em;
@@ -286,7 +291,8 @@ i {
     font-size: 25px;
   }
 
-  /* what we do page */
+  /* WHAT WE DO page */
+  /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_laptop.jpg);
     max-width: 100%;
@@ -334,7 +340,13 @@ i {
     margin-left: 0;
   }
 
-  /* 'banner' across top of all pages */
+  /* HOME page */
+  /* container on top of home page */  
+  #container_homepage {
+    height: 385px;
+  }
+
+  /* 'banner' across top of homepage */
   .byline_homepage {
     height: 1.5625em;
     padding-top: 0.3125em;
@@ -346,12 +358,7 @@ i {
     letter-spacing: normal;
   }
 
-  /* container on top of all pages */  
-  #container_homepage {
-    height: 385px;
-  }
-
-  /* homepage */
+  /* image on home page */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_426.jpg);
     max-width: 100%;
@@ -359,6 +366,7 @@ i {
     margin-top: 1.875em;
   }
 
+  /* main text overlay on home page */
   .overlay_homepage {
     margin-top: 5.625em;
     margin-left: 1.25em;
@@ -379,7 +387,8 @@ i {
     font-size: 18px;
   }
 
-  /* what we do page */
+  /* WHAT WE DO page */
+  /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_mobile_426.jpg);
     max-width: 100%;
@@ -443,8 +452,13 @@ i {
     margin-right: 0;
     margin-left: 0.3125em;
   }
+  /* HOME page */
+  /* container on top of home page */
+  #container_homepage {
+    height: 340px;
+  }
 
-  /* 'banner' across top of all pages */
+  /* 'banner' across top of homepage */
   .byline_homepage {
     height: 20px;
     padding-top: 0.3125em;
@@ -456,18 +470,15 @@ i {
     letter-spacing: normal;
   }
 
-  /* container on top of all pages */  
-    #container_homepage {
-      height: 340px;
-  }
-
-  /* homepage */
+  
+  /* image on home page */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_376.jpg);
     max-width: 100%;
     height: 314px;
   }
 
+  /* main text overlay on home page */
   .overlay_homepage {
     margin-top: 5em;
     margin-left: 1.25em;
@@ -488,7 +499,8 @@ i {
     font-size: 17px;
   }
 
-  /* what we do page */
+  /* WHAT WE DO page */
+  /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_mobile_376.jpg);
     max-width: 100%;
@@ -552,7 +564,13 @@ i {
     margin-left: 0;
   }
 
-  /* 'banner' across top of all pages */
+  /* HOME page */
+  /* container on top of home page */
+  #container_homepage {
+    height: 315px;
+  }
+
+  /* 'banner' across top of homepage */
   .byline_homepage {
     height: 40px;
     padding-top: 0.3125em;
@@ -564,12 +582,7 @@ i {
     letter-spacing: normal;
   }
 
-  /* container on top of all pages */  
-  #container_homepage {
-    height: 315px;
-  }
-
-  /* homepage */
+  /* image on home page */
   .image_homepage {
     content: url(../images/supporting_hands_mobile_320.jpg);
     max-width: 100%;
@@ -577,6 +590,7 @@ i {
     margin-top: 3.125em;
   }
 
+  /* main text overlay on home page */
   .overlay_homepage {
     margin-top: 4.375em;
     margin-left: 0.625em;
@@ -597,7 +611,8 @@ i {
     font-size: 15px;
   }
 
-  /* what we do page */
+  /* WHAT WE DO page */
+  /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_mobile_320.jpg);
     max-width: 100%;
@@ -630,18 +645,25 @@ i {
 /* L A R G E   L A P T O P  Screens between 1025px and 1441px */
 @media (max-width: 1441px) and (min-width: 1025px) {
 
-  /* 'banner' across top of all pages */
+  /* HOME page */
+  /* container on top of home page */  
+  #container_homepage {
+    height: 660px;
+    }
+
+  /* 'banner' across top of home page */
   .byline_homepage > h2 {
     font-size: 125%;
   }
 
-  /* homepage */
+  /* image on home page */
   .image_homepage {
     content: url(../images/supporting_hands_large-laptop.jpg);
     max-width: 100%;
     height: 674px;
   }
 
+  /* main text overlay on home page */
   .overlay_homepage {
     position: relative;
     margin-left: 14.375em;
@@ -661,7 +683,8 @@ i {
     height: 660px;
     }
 
-  /* what we do page */
+  /* WHAT WE DO page */
+  /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_large_laptop.jpg);
     max-width: 100%;
