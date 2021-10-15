@@ -206,7 +206,7 @@ h4 {
 /* GET SOCIAL page */
 /* container on top of home page */
 #container_get_social {
-  height: 1025px;
+  height: 1360px;
   width: 100%;
   overflow: hidden;
   margin: 0;
@@ -261,6 +261,22 @@ h4 {
   margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+/* masonry style photo gallery on 'get social' page */
+#photo_gallery {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#photo_gallery img {
+  width: 100%;
+  margin: 2px 2px;
 }
 
 /* footer */
