@@ -203,6 +203,66 @@ h4 {
   padding-right: 20px;
 }
 
+/* GET SOCIAL page */
+/* container on top of home page */
+#container_get_social {
+  height: 1025px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* main text and video section for get social page */
+/* 'banner' across top of get social page */
+.byline_get_social {
+  height: 26px;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  background-color: #ffca4b;
+  z-index: 4;
+}
+
+.byline_get_social > h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 120%;
+  letter-spacing: normal;
+  color: black;
+  word-wrap: break-word;
+}
+
+/* video and text section for get social page */
+.video {
+  float: left;
+  padding-left: 20px;
+}
+
+#text_video_container{
+  margin-top: 40px;
+  height: fit-content;
+}
+
+.text_next_to_video {
+  width: 60%;
+  height: fit-content;
+  float: right;
+  padding-left: 5px;
+  margin-top: 40px;
+  margin-right: 45px;
+}
+
+/* main body text on get social page */
+.body_text_get_social {
+  clear: both;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* footer */
 #footer {
   height: 65px;
