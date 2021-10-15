@@ -157,7 +157,7 @@ h4 {
 /* WHAT WE DO page */
 /* container on top of home page */
 #container_whatwedo_page {
-  height: 1000px;
+  height: 1025px;
   width: 100%;
   overflow: hidden;
   margin: 0;
@@ -308,11 +308,21 @@ i {
   }
 
   /* WHAT WE DO page */
+  /* container on top of home page */
+  #container_whatwedo_page {
+    height: 1090px;
+  }
+
   /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_laptop.jpg);
     max-width: 100%;
     height: 240px;
+  }
+
+  /* main body text on what we do page */
+  .body_text {
+    margin-top: 280px;
   }
 }
 
@@ -404,11 +414,21 @@ i {
   }
 
   /* WHAT WE DO page */
+  /* container on top of home page */
+  #container_whatwedo_page {
+    height: 1365px;
+  }
+
   /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_mobile_426.jpg);
     max-width: 100%;
     height: 133px;
+  }
+
+  /* main body text on what we do page */
+  .body_text {
+    margin-top: 175px;
   }
 
   /* footer */
@@ -485,7 +505,6 @@ i {
     font-size: 84%;
     letter-spacing: normal;
   }
-
   
   /* image on home page */
   .image_homepage {
@@ -516,11 +535,21 @@ i {
   }
 
   /* WHAT WE DO page */
+  /* container on top of home page */
+    #container_whatwedo_page {
+      height: 1525px;
+  }
+
   /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_mobile_376.jpg);
     max-width: 100%;
     height: 117px;
+  }
+
+  /* main body text on what we do page */
+  .body_text {
+    margin-top: 160px;
   }
 
   /* footer */
@@ -628,11 +657,21 @@ i {
   }
 
   /* WHAT WE DO page */
+  /* container on top of home page */
+  #container_whatwedo_page {
+    height: 1715px;
+  }
+
   /* image on what we do page */
   .image_what-we-do {
     content: url(../images/group_of_people_mobile_320.jpg);
     max-width: 100%;
     height: 100px;
+  }
+
+  /* main body text on what we do page */
+  .body_text {
+    margin-top: 140px;
   }
 
   /* footer */
@@ -694,7 +733,7 @@ i {
     line-height: 40px;
   }
 
-  /* container on top of all pages */  
+  /* container on top of home page */  
   #container_homepage {
     height: 660px;
     }
@@ -706,5 +745,4 @@ i {
     max-width: 100%;
     height: 347px;
   }
-  
 }
