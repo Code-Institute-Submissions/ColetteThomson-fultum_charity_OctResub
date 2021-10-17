@@ -278,6 +278,100 @@ h4 {
   margin: 2px 2px;
 }
 
+/* CONTACT US page */
+/* container on top of contact us page */
+#container_contact-us {
+  height: 1025px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* 'banner' across top of contact us page */
+.byline_contact-us {
+  height: 26px;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  background-color: #ffca4b;
+  z-index: 4;
+}
+
+.byline_contact-us > h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 120%;
+  letter-spacing: normal;
+  color: black;
+  word-wrap: break-word;
+}
+
+/* image on contact us page */
+.image_contact-us {
+  content: url(../images/contact_us_laptop.jpg);
+  max-width: 100%;
+  height: 328px;
+  margin-top: 45px;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/*query form at bottom of 'about us' page */
+.query_form {
+  clear: both;
+  margin-left: 50px;
+  margin-top: 500px;
+  color: black;
+  height: 420px;
+  max-width: 85%;
+  padding: 15px;
+  margin-bottom: 30px;
+  background: url(../images/multiple-helping-hands_filter2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.query_form > h2 {
+  color: #ce5108;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #3a3a3a;
+  height: 25px;
+  width: 100%;
+  margin: 5px 0 20px 0;
+  border: 1px solid #3a3a3a;
+  border-radius: 1px;
+}
+
+.text-input:hover {
+  border-color: #ce5108;
+}
+
+.query-button {
+  margin-top: 20px;
+  padding: 15px 32px 15px 32px;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 80%;
+  background-color: #ce5108;
+  color: #ffffff;
+  display: block;
+}
+
+.query-button:hover {
+  background-color: #ffffff;
+  color: #ce5108;
+}
+
+
 /* footer */
 #footer {
   height: 65px;

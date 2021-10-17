@@ -35,9 +35,42 @@
             </ul>
         </nav>
     </header>
-    <div>
-        <p>contact us</p>
-    </div>
+    <section id="container_contact-us">
+        <div class="image_contact-us">
+        </div>
+        <div class="byline_contact-us center">
+            <h2>Our contact details and a bit about us</h2>
+        </div>
+
+        <section class="query_form">
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <h2>Please complete the details below if you would like more information</h2>
+                <label for="firstname">First Name</label>
+                <input id="firstname" type="text" name="first_name" required class="text-input"
+                    placeholder="your first name">
+
+                <label for="lastname">Last Name</label>
+                <input id="lastname" type="text" name="last_name" required class="text-input"
+                    placeholder="your last name">
+
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email" required class="text-input"
+                    placeholder="joebloggs@example.com">
+
+                <label for="tel-no">Phone Number</label>
+                <input id="tel-no" type="tel" name="tel_no" required class="text-input"
+                    placeholder="landline or mobile number">
+
+                <label for="services-info">Please email me info on your services</label>
+                <input id="services-info" type="radio" name="contact_type" value="services-info" required>
+
+                <label for="call-me">Please call me</label>
+                <input id="call-me" type="radio" name="contact_type" value="call-me">
+
+                <input type="submit" value="Submit" class="query-button">
+            </form>
+        </section>
+    </section>
 
     <footer id="footer">
         <ul class="social_networks">
@@ -58,10 +91,10 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
             </li>
         </ul>
-        <address>
-            <p><strong>Fultum Wiltshire </strong>(Charity No: 98765)
+        <address class="address">
+            <p><strong>Fultum Wiltshire </strong>
             </p>
-            <p>19 Church Street, Devizes, SN10 1AB
+            <p>19 Main Street, Devizes, SN10 1AB
             </p>
             <p>Telephone: 0808 123 4567
             </p>
@@ -69,7 +102,8 @@
             </p>
         </address>
     </footer>
-
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/37f1862f9d.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
