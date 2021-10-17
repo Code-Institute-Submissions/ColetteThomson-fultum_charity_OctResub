@@ -213,7 +213,6 @@ h4 {
   padding: 0;
 }
 
-/* main text and video section for get social page */
 /* 'banner' across top of get social page */
 .byline_get_social {
   height: 26px;
@@ -528,27 +527,35 @@ i {
 
   /* main body text on what we do page */
   .body_text {
-    margin-top: 175px;
+    margin-top: 10.9375em;
   }
 
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: ;
+    height: 2455px;
   }
 
-  /* main text and video section for get social page */
-  /* 'banner' across top of get social page */
-  .byline_get_social {
-    height: 26px;
+    /* video and text section for get social page */
+  .video {
+    padding-top: 0;
+    padding-left: 4.375em;
+  }
+
+  .text_next_to_video {
+    float: left;
+    width: fit-content;
+    margin: 0;
+    padding-top: 0.625em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
+
+  /* masonry style photo gallery on 'get social' page */
+  #photo_gallery {
+    column-count: 2;
+  }
   
-  }
-
-  .byline_get_social > h2 {
-    font-size: ;
-
-  }
-
   /* footer */
   #footer {
     height: 65px;
@@ -667,25 +674,33 @@ i {
 
   /* main body text on what we do page */
   .body_text {
-    margin-top: 160px;
+    margin-top: 10em;
   }
 
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: ;
+    height: 2346px;
   }
 
-  /* main text and video section for get social page */
-  /* 'banner' across top of get social page */
-  .byline_get_social {
-    height: 26px;
-  
+   /* video and text section for get social page */
+  .video {
+    padding-top: 0;
+    padding-left: 3em;
   }
 
-  .byline_get_social > h2 {
-    font-size: ;
+  .text_next_to_video {
+    float: left;
+    width: fit-content;
+    margin: 0;
+    padding-top: 0.625em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
 
+  /* masonry style photo gallery on 'get social' page */
+  #photo_gallery {
+    column-count: 2;
   }
 
   /* footer */
@@ -807,25 +822,33 @@ i {
 
   /* main body text on what we do page */
   .body_text {
-    margin-top: 140px;
+    margin-top: 8.75em;
   }
 
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: ;
+    height: 2265px;
   }
 
-  /* main text and video section for get social page */
-  /* 'banner' across top of get social page */
-  .byline_get_social {
-    height: 26px;
-  
+  /* video and text section for get social page */
+  .video {
+    padding-top: 0;
+    padding-left: 1.1875em;
   }
 
-  .byline_get_social > h2 {
-    font-size: ;
+  .text_next_to_video {
+    float: left;
+    width: fit-content;
+    margin: 0;
+    padding-top: 0.625em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
 
+  /* masonry style photo gallery on 'get social' page */
+  #photo_gallery {
+    column-count: 2;
   }
 
   /* footer */
@@ -903,19 +926,25 @@ i {
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: ;
+    height: 1716px;
   }
 
-  /* main text and video section for get social page */
-  /* 'banner' across top of get social page */
-  .byline_get_social {
-    height: 26px;
-  
+  /* video and text section for get social page */
+  .video {
+    padding-left: 2.5em;
   }
 
-  .byline_get_social > h2 {
-    font-size: ;
-
+  #text_video_container{
+    margin-top: 2.5em;
+    height: fit-content;
   }
 
+  .text_next_to_video {
+    width: 70%;
+  }
+
+  /* main body text on get social page */
+  .body_text_get_social {
+    padding-left: 2.5em;
+  }
 }
