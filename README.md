@@ -122,6 +122,12 @@ Test cases can be found [here]()
 ### Issues found during testing
 * 
 
+### Lighthouse Reports
+* Home Page lighthouse report can be found [here]()
+* What We Do Page lighthouse report can be found [here]()
+* Get Social Page lighthouse report can be found [here]()
+* Contact Us lighthouse report can be found [here]()
+
 ## Deployment
 ### Project Creation
 The project was created using GitHub and choosing a new repository.<br>
