@@ -363,7 +363,7 @@ h4 {
   max-width: 85%;
   padding: 15px;
   margin-bottom: 20px;
-  background-color: rgba(4, 99, 187, 0.1);
+  border-style: solid;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -867,6 +867,8 @@ i {
   .byline_homepage > h2 {
     font-size: 83%;
     letter-spacing: normal;
+    padding-right: 0;
+    padding-left: 0;
   }
   
   /* image on home page */
@@ -892,11 +894,6 @@ i {
     font-size: 16px;
   }
   
-  .overlay_homepage > h4 {
-    letter-spacing: normal;
-    font-size: 17px;
-  }
-
   /* link on home page */
   .link_homepage {
     letter-spacing: normal;
@@ -1078,19 +1075,21 @@ i {
   /* HOME page */
   /* container on top of home page */
   #container_homepage {
-    height: 315px;
+    height: 300px;
   }
 
   /* 'banner' across top of homepage */
   .byline_homepage {
-    height: 40px;
-    padding-top: 0.3125em;
-    padding-bottom: 0.3125em;
+    height: 20px;
+    padding-top: 0.435em;
+    padding-bottom: 0.435em;
   }
 
   .byline_homepage > h2 {
-    font-size: 87%;
+    font-size: 75%;
     letter-spacing: normal;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* image on home page */
@@ -1098,12 +1097,12 @@ i {
     content: url(../images/supporting_hands_mobile_320.jpg);
     max-width: 100%;
     height: 267px;
-    margin-top: 3.125em;
+    margin-top: 2.0625em;
   }
 
   /* main text overlay on home page */
   .overlay_homepage {
-    margin-top: 4.375em;
+    margin-top: 55px;
     margin-left: 0.625em;
     margin-right: 0.625em;
     padding: 0.3125em;
@@ -1117,11 +1116,6 @@ i {
     font-size: 15px;
   }
   
-  .overlay_homepage > h4 {
-    letter-spacing: normal;
-    font-size: 15px;
-  }
-
   /* link on home page */
   .link_homepage {
     letter-spacing: normal;
@@ -1293,7 +1287,6 @@ i {
   }
 
   .byline_what-we-do > h2 {
-    font-family: "poppins", sans-serif;
     font-size: 135%;
   }
 
@@ -1380,7 +1373,6 @@ i {
     max-width: 85%;
     padding: 0.9375em;
     margin-bottom: 1.25em;
-    background-color: rgba(4, 99, 187, 0.1);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
