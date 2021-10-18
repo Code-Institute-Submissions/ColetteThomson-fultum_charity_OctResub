@@ -127,11 +127,11 @@ h4 {
 /* main text overlay on home page */
 .overlay_homepage {
   position: relative;
-  margin-top: 150px;
+  margin-top: 145px;
   margin-left: 142px;
   margin-right: 142px;
   padding: 15px;
-  max-height: 330px;
+  max-height: 340px;
   max-width: 700px;
   background-color:rgba(255, 255, 255, 0.8);
   z-index: 2;
@@ -154,10 +154,27 @@ h4 {
   text-align: center;
 }
 
+/* link on home page */
+.link_homepage {
+  color: #0463bb;
+  /*color: #ce5108;*/
+  letter-spacing: normal;
+  line-height: 70px;
+}
+
+.link_font_size {
+  font-size: 140%;
+}
+
+.link_homepage:hover {
+  /*color: #0463bb;*/
+  color: #ce5108;
+}
+
 /* WHAT WE DO page */
 /* container on top of home page */
 #container_whatwedo_page {
-  height: 1025px;
+  height: 1040px;
   width: 100%;
   overflow: hidden;
   margin: 0;
@@ -318,7 +335,7 @@ h4 {
   content: url(../images/contact_us_laptop.jpg);
   max-width: 100%;
   height: 328px;
-  margin-top: 32px;
+  margin-top: 40px;
   position: absolute;
   overflow: hidden;
   z-index: -1;
@@ -480,7 +497,7 @@ i {
 
   /* main text overlay on home page */
   .overlay_homepage {
-    margin-top: 10em;
+    margin-top: 175px;
     margin-left: 4.375em;
     margin-right: 4.375em;
   }
@@ -514,7 +531,7 @@ i {
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: 1780px;
+    height: 1782px;
   }
 
   /* video and text section for get social page */
@@ -574,7 +591,7 @@ i {
 
   /* headings and logo */
   #logo {
-    font-size: 130%;
+    font-size: 150%;
     margin-left: 1em;
   }
 
@@ -583,9 +600,8 @@ i {
   }
 
   /* navigation menu */
-  #menu,
   #logo {
-    line-height: 30px;
+    line-height: 36px;
   }
 
   #menu {
@@ -594,6 +610,7 @@ i {
     letter-spacing: normal;
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 20px;
   }
 
   #menu ul {
@@ -654,10 +671,31 @@ i {
     font-size: 18px;
   }
 
+  /* link on home page */
+  .link_homepage {
+    color: #ce5108;
+    letter-spacing: normal;
+    line-height: 40px;
+  }
+
+  .link_font_size {
+    font-size: 17px;
+  }
+
   /* WHAT WE DO page */
   /* container on top of home page */
   #container_whatwedo_page {
     height: 1365px;
+  }
+
+  .byline_what-we-do {
+    height: 1.5625em;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em
+  }
+
+  .byline_what-we-do > h2 {
+    font-size: 90%;
   }
 
   /* image on what we do page */
@@ -675,11 +713,25 @@ i {
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: 2455px;
+    height: 2434px;
+  }
+
+  .byline_get_social {
+    height: 1.5625em;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em
+  }
+
+  .byline_get_social > h2 {
+    font-size: 90%;
   }
 
     /* video and text section for get social page */
-  .video {
+    #text_video_container{
+      margin-top: 20px;
+    }
+  
+    .video {
     padding-top: 0;
     padding-left: 4.375em;
   }
@@ -705,8 +757,14 @@ i {
   }
   
   /* 'banner' across contact us page */
+  .byline_contact-us {
+    height: 1.5625em;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em
+  }
+
   .byline_contact-us > h2 {
-    font-size: 110%;
+    font-size: 90%;
   }
 
   /* image on contact us page */
@@ -714,6 +772,7 @@ i {
     content: url(../images/contact_us_mobile_426.jpg);
     max-width: 100%;
     height: 136px;
+    margin-top: 30px;
   }
 
   /* main body text on contact us page */
@@ -762,7 +821,7 @@ i {
   
   /* headings and logo */
   #logo {
-    font-size: 130%;
+    font-size: 140%;
     margin-left: 1em;
   }
 
@@ -771,15 +830,15 @@ i {
   }
 
   /* navigation menu */
-  #menu,
   #logo {
-    line-height: 30px;
+    line-height: 36px;
   }
 
   #menu {
     float: left;
     font-size: 85%;
     letter-spacing: normal;
+    line-height: 25px;
   }
 
   #menu ul {
@@ -839,10 +898,28 @@ i {
     font-size: 17px;
   }
 
+  /* link on home page */
+  .link_homepage {
+    color: #ce5108;
+    letter-spacing: normal;
+    line-height: 35px;
+  }
+
+  .link_font_size {
+    font-size: 16px;
+  }
+
   /* WHAT WE DO page */
   /* container on top of home page */
     #container_whatwedo_page {
       height: 1525px;
+  }
+
+  /* 'banner' across top of what we do page */
+  .byline_what-we-do {
+    height: 20px;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
   }
 
   /* image on what we do page */
@@ -850,6 +927,7 @@ i {
     content: url(../images/group_of_people_mobile_376.jpg);
     max-width: 100%;
     height: 117px;
+    margin-top: 25px;
   }
 
   /* main body text on what we do page */
@@ -860,10 +938,21 @@ i {
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: 2346px;
+    height: 2331px;
+  }
+
+  /* 'banner' across top of get social page */
+  .byline_get_social {
+    height: 20px;
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
   }
 
    /* video and text section for get social page */
+   #text_video_container{
+    margin-top: 25px;
+  }
+
   .video {
     padding-top: 0;
     padding-left: 3em;
@@ -889,9 +978,14 @@ i {
     height: 1820px;
   }
   
+  /* 'banner' across top of contact us page */
+  .byline_contact-us {
+    height: 20px;
+  }
+
   /* 'banner' across contact us page */
   .byline_contact-us > h2 {
-    font-size: 100%;
+    font-size: 84%;
     padding-top: 0.125em;
   }
 
@@ -952,7 +1046,7 @@ i {
   
   /* headings and logo */
   #logo {
-    font-size: 130%;
+    font-size: 140%;
     margin-left: 1em;
   }
 
@@ -961,15 +1055,15 @@ i {
   }
 
   /* navigation menu */
-  #menu,
   #logo {
-    line-height: 30px;
+    line-height: 36px;
   }
 
   #menu {
     float: left;
     font-size: 80%;
     letter-spacing: normal;
+    line-height: 25px;
   }
 
   #menu ul {
@@ -1030,6 +1124,17 @@ i {
     font-size: 15px;
   }
 
+  /* link on home page */
+  .link_homepage {
+    color: #ce5108;
+    letter-spacing: normal;
+    line-height: 35px;
+  }
+
+  .link_font_size {
+    font-size: 15px;
+  }
+
   /* WHAT WE DO page */
   /* container on top of home page */
   #container_whatwedo_page {
@@ -1051,7 +1156,7 @@ i {
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: 2265px;
+    height: 2250px;
   }
 
   /* video and text section for get social page */
@@ -1082,8 +1187,8 @@ i {
   
   /* 'banner' across contact us page */
   .byline_contact-us > h2 {
-    font-size: 90%;
-    padding-top: 0.1875em;
+    font-size: 87%;
+    padding-top: 0;
   }
 
   /* image on contact us page */
