@@ -215,7 +215,7 @@ h4 {
 
 /* main body text on what we do page */
 .body_text {
-  margin-top: 355px;
+  margin-top: 360px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -673,7 +673,6 @@ i {
 
   /* link on home page */
   .link_homepage {
-    color: #ce5108;
     letter-spacing: normal;
     line-height: 40px;
   }
@@ -866,7 +865,7 @@ i {
   }
 
   .byline_homepage > h2 {
-    font-size: 84%;
+    font-size: 83%;
     letter-spacing: normal;
   }
   
@@ -900,7 +899,6 @@ i {
 
   /* link on home page */
   .link_homepage {
-    color: #ce5108;
     letter-spacing: normal;
     line-height: 35px;
   }
@@ -1126,7 +1124,6 @@ i {
 
   /* link on home page */
   .link_homepage {
-    color: #ce5108;
     letter-spacing: normal;
     line-height: 35px;
   }
@@ -1282,9 +1279,9 @@ i {
   }
 
   /* WHAT WE DO page */
-  /* container on top of home page */
+  /* container on top of what we do page */
   #container_whatwedo_page {
-    height: 970px;
+    height: 1020px;
   }
 
   /* image on what we do page */
@@ -1310,7 +1307,7 @@ i {
   /* GET SOCIAL page */
   /* container on top of get social page */
   #container_get_social {
-    height: 1716px;
+    height: 1550px;
   }
 
   .byline_get_social > h2 {
@@ -1358,7 +1355,7 @@ i {
     content: url(../images/contact_us_large_laptop.jpg);
     max-width: 100%;
     height: 462px;
-    padding-top: 1.125em;
+    
   }
 
   /* main body text on contact us page */
