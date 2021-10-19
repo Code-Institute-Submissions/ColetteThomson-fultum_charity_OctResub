@@ -729,7 +729,7 @@ i {
 
   .text_next_to_video {
     float: left;
-    width: fit-content;
+    width: 90%;
     margin: 0;
     padding-top: 0.625em;
     padding-left: 1.25em;
@@ -945,7 +945,7 @@ i {
 
   .text_next_to_video {
     float: left;
-    width: fit-content;
+    width: 90%;
     margin: 0;
     padding-top: 0.625em;
     padding-left: 1.25em;
@@ -1112,7 +1112,7 @@ i {
   }
 
   .link_font_size {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   /* W H A T   W E   D O   page */
@@ -1147,7 +1147,7 @@ i {
 
   .text_next_to_video {
     float: left;
-    width: fit-content;
+    width: 90%;
     margin: 0;
     padding-top: 0.625em;
     padding-left: 1.25em;
