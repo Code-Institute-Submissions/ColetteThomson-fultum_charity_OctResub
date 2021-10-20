@@ -140,11 +140,11 @@ As there is no JavaScript functionality present in this website, the Query Form 
  [part5](assets/images/test_cases_contactus_page_part5.JPG)<br>
 
 ### Code Validation
-* All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors.<br>
-* The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors.<br>
+* All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors. HTML code validation screenshot can be found [here](assets/images/html_validation.JPG)<br>
+* The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors. CSS code validation screenshot can be found [here](assets/images/css_validation.JPG)<br>
 
 ### Issues found during testing
-* 
+* None found
 
 ### Lighthouse Reports
 * Home Page lighthouse report can be found [here](assets/images/lighthouse_report_home_page.JPG)
