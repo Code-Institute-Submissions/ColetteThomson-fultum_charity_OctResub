@@ -9,7 +9,7 @@ This website was created to both showcase the services and extend awareness of t
 * Provision of hobby workshops and social gatherings to encourage community participation
 * A book swop and donation scheme
 
-The live project can be found [here]()
+The live project can be found [here](https://colettethomson.github.io/fultum_charity/)
 
 ## User Experience Design
 
@@ -39,7 +39,7 @@ The live project can be found [here]()
 * This feature fulfills the user stories: *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I want information on what services they offer'*.
 
 #### Footer Element
-* Present on all four pages of the website, the footer details all contact information, the registered charity number and provides external links to the charity's social media presence.
+* Present on all four pages of the website, the footer details all contact information and provides external links to the charity's social media presence.
 * This feature fulfills the user stories: *'As a regular user, I want to determine ways to contact and request additional information about new or improved services'* and *'As a regular user, I want to view and follow the organisation's social media'*.
 
 ### Website Pages
@@ -104,7 +104,6 @@ As there is no JavaScript functionality present in this website, the Query Form 
 * [Git](https://git-scm.com/) - used as version control software to commit and push code to a GitHub repository where all source code is located.
 * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - these are built in developer tools used to inspect page elements (eg. responsive design); debug issues; and test different CSS styling options.
 
-
 ## Testing
 * This is a static website with no back-end functionality - therefore testing will be performed on visual effect and website layout. 
 * Testing will be performed to check for compatibility across three web browsers (Google Chrome; Firefox; and Opera) 
@@ -146,7 +145,7 @@ As there is no JavaScript functionality present in this website, the Query Form 
 * The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors. CSS code validation screenshot can be found [here](assets/images/css_validation.JPG)<br>
 
 ### Issues found during testing
-When producing mockups for each of the web pages - it was noted that the largest screen viewport shows the main image on each of the Home, What We Do and Contact Us pages - is not showing as 100% of screen width.  I have been unable to reproduce this responsive design error during testing.<br>
+When producing mockups for each of the web pages: it was noted that the largest screen viewport shows the main image on each of the Home, What We Do and Contact Us pages - as not showing as 100% of screen width.  I have been unable to reproduce this responsive design error during testing.<br>
 I am of the belief that as **ami.responsivedesign** is intended for Apple Mac (I use Windows PC) - I am thus unable to reproduce and fix this issue.<br>
 NOTE:  all images display correctly when viewed on Windows PC.
 
