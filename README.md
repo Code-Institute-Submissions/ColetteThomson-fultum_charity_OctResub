@@ -113,8 +113,31 @@ As there is no JavaScript functionality present in this website, the Query Form 
 * Testing of the video link to ensure the user has to click 'play' to run the video and that the video does not play automatically upon opening of the web page.
 
 ### Test Cases
-* Test cases for Navigation and Footer can be found [here](images/test_cases_nav_and_footer.JPG)
-* Test cases for Home page [part1](images/test_cases_home_page_part1.jpg).
+* Test cases for Navigation and Footer can be found [here](assets/images/test_cases_nav_and_footer.JPG)
+* Test cases for Home page:<br>
+ [part1](assets/images/test_cases_home_page_part1.jpg)<br>
+ [part2](assets/images/test_cases_home_page_part2.JPG)<br>
+ [part3](assets/images/test_cases_home_page_part3.JPG)<br>
+ [part4](assets/images/test_cases_home_page_part4.JPG)<br>
+ [part5](assets/images/test_cases_home_page_part5.JPG)<br>
+* Test cases for What We Do page:<br>
+ [part1](assets/images/test_cases_whatwedo_page_part1.JPG)<br>
+ [part2](assets/images/test_cases_whatwedo_page_part2.JPG)<br>
+ [part3](assets/images/test_cases_whatwedo_page_part3.JPG)<br>
+ [part4](assets/images/test_cases_whatwedo_page_part4.JPG)<br>
+ [part5](assets/images/test_cases_whatwedo_page_part5.JPG)<br>
+ * Test cases for Get Social page:<br>
+ [part1](assets/images/test_cases_getsocial_page_part1.JPG)<br>
+ [part2](assets/images/test_cases_getsocial_page_part2.JPG)<br>
+ [part3](assets/images/test_cases_getsocial_page_part3.JPG)<br>
+ [part4](assets/images/test_cases_getsocial_page_part4.JPG)<br>
+ [part5](assets/images/test_cases_getsocial_page_part5.JPG)<br>
+ * Test cases for Contact Us page:<br>
+ [part1](assets/images/test_cases_contactus_page_part1.JPG)<br>
+ [part2](assets/images/test_cases_contactus_page_part2.JPG)<br>
+ [part3](assets/images/test_cases_contactus_page_part3.JPG)<br>
+ [part4](assets/images/test_cases_contactus_page_part4.JPG)<br>
+ [part5](assets/images/test_cases_contactus_page_part5.JPG)<br>
 
 ### Code Validation
 * All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors.<br>
