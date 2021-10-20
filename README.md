@@ -81,7 +81,7 @@ The colour palette chosen consists of four basic colours:  #ce5108 (orange); #04
 The logo is using **Shadows Into Light**; all headings are using **Roboto**; and the body text is using **Poppins**.  The back-up font is **sans-serif**.  Fonts were downloaded from **Google Fonts**.
 
 #### Imagery, Icons, Video
-Images for the website have been downloaded from **Pexels**.  The social media icons were downloaded from **Font Awesome**.  The MP4 video was downloaded from **All Free Downloads**.
+Images for the website have been downloaded from **Pexels**.  All .jpg images were compressed using **tinyjpg**. The social media icons were downloaded from **Font Awesome**.  The MP4 video was downloaded from **All Free Downloads**.
 
 ### Limitations
 As there is no JavaScript functionality present in this website, the Query Form on the 'Contact Us' page is designed to post to Code Institute's form dump (https://formdump.codeinstitute.net/).
@@ -146,7 +146,9 @@ As there is no JavaScript functionality present in this website, the Query Form 
 * The CSS stylesheet was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors. CSS code validation screenshot can be found [here](assets/images/css_validation.JPG)<br>
 
 ### Issues found during testing
-* None found
+When producing mockups for each of the web pages - it was noted that the largest screen viewport shows the main image on each of the Home, What We Do and Contact Us pages - is not showing as 100% of screen width.  I have been unable to reproduce this responsive design error during testing.<br>
+I am of the belief that as **ami.responsivedesign** is intended for Apple Mac (I use Windows PC) - I am thus unable to reproduce and fix this issue.<br>
+NOTE:  all images display correctly when viewed on Windows PC.
 
 ### Lighthouse Reports
 * Home Page lighthouse report can be found [here](assets/images/lighthouse_report_home_page.JPG)
