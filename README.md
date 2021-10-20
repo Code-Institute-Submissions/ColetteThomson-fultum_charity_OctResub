@@ -84,7 +84,7 @@ The logo is using **Shadows Into Light**; all headings are using **Roboto**; and
 Images for the website have been downloaded from **Pexels**.  The social media icons were downloaded from **Font Awesome**.  The MP4 video was downloaded from **All Free Downloads**.
 
 ### Limitations
-As there is no JavaScript functionality present in this website, the Query Form on the 'About Us' page is designed to post to Code Institute's form dump (https://formdump.codeinstitute.net/).
+As there is no JavaScript functionality present in this website, the Query Form on the 'Contact Us' page is designed to post to Code Institute's form dump (https://formdump.codeinstitute.net/).
 
 ### Features
 * The Query Form - this can be completed on the 'Contact Us' page.  
@@ -113,7 +113,8 @@ As there is no JavaScript functionality present in this website, the Query Form 
 * Testing of the video link to ensure the user has to click 'play' to run the video and that the video does not play automatically upon opening of the web page.
 
 ### Test Cases
-Test cases can be found [here]()
+* Test cases for Navigation and Footer can be found [here](images/test_cases_nav_and_footer.JPG)
+* Test cases for Home page [part1](images/test_cases_home_page_part1.jpg).
 
 ### Code Validation
 * All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/) and showed no errors.<br>
