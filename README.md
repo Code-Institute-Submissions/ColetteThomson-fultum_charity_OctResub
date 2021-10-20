@@ -147,10 +147,10 @@ As there is no JavaScript functionality present in this website, the Query Form 
 * 
 
 ### Lighthouse Reports
-* Home Page lighthouse report can be found [here]()
-* What We Do Page lighthouse report can be found [here]()
-* Get Social Page lighthouse report can be found [here]()
-* Contact Us lighthouse report can be found [here]()
+* Home Page lighthouse report can be found [here](assets/images/lighthouse_report_home_page.JPG)
+* What We Do Page lighthouse report can be found [here](assets/images/lighthouse_report_whatwedo_page.JPG)
+* Get Social Page lighthouse report can be found [here](assets/images/lighthouse_report_getsocial_page.JPG)
+* Contact Us lighthouse report can be found [here](assets/images/lighthouse_report_contactus_page.JPG)
 
 ## Deployment
 ### Project Creation
