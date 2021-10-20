@@ -11,10 +11,6 @@ This website was created to both showcase the services and extend awareness of t
 
 The live project can be found [here]()
 
-## Mockup of the Fultum Wiltshire Charity website
-
-![Website Mockup]()
-
 ## User Experience Design
 
 ### User Stories
@@ -38,13 +34,9 @@ The live project can be found [here]()
 * This feature fulfills the user story: *'As a new user, I want to be able to view the website on all device types'*. 
 
 #### Navigation Bar
-* Present on all four pages of the website, the fully navigational horizontal menu on the top right side of each page gives menu links to the 'Home', 'What We Do', 'Get Social' and 'About Us' pages.
+* Present on all four pages of the website, the fully navigational horizontal menu on the top right side of each page gives menu links to the 'Home', 'What We Do', 'Get Social' and 'Contact Us' pages.
 * This feature is intended to enable the user to quickly and easily navigate between web pages without having to utlise the browser 'back' button.
 * This feature fulfills the user stories: *'As a new user, the navigational layout must be easy to understand and follow'* and *'As a new user, I want information on what services they offer'*.
-
-#### 'Contact Us' Link
-* Present on two pages of the website ('What We Do' and 'Get Social'), this link on the top right side of the web page (underneath the menu), enables quick access to the 'About Us' page which contains an online 'Query Form', where the user can request more information through completion of this form with the options of: return by email, or a return phone call to the user by the charity.
-* This feature fulfills the user stories: *As a new user, I want to be able to easily contact the organisation'* and *'As a new user, I want information on what services they offer'* and *'As a regular user, I want to determine ways to contact and request additional information about new or improved services'* and *'As a new user, the navigational layout must be easy to understand and follow'*.
 
 #### Footer Element
 * Present on all four pages of the website, the footer details all contact information, the registered charity number and provides external links to the charity's social media presence.
@@ -52,21 +44,29 @@ The live project can be found [here]()
 
 ### Website Pages
 #### The 'Home' Page or Landing Page
+A mockup of the Home page can be found [here](assets/images/mockup_home_page.JPG).
+
 * This page is intended to provide an at-a-glance view of the main purpose of the website.
 * A link is provided within the page to take the user directly to the 'What We Do' page.
 * This feature fulfills the user stories: *'As a new user, I want to immediately understand the main purpose of the website'* and *'As a new user, I want to be able to easily contact the organisation'* and *'As a new user, the navigational layout must be easy to understand and follow'*.
 
 #### The 'What We Do' Page
+A mockup of the What We Do page can be found [here](assets/images/mockup_whatwedo_page.JPG).
+
 * This page details all the services the charity offers.
 * This feature fulfills the user story: *'As a new user, I want information on what services they offer'*.
 
 #### The 'Get Social' Page
+A mockup of the Get Social page can be found [here](assets/images/mockup_getsocial_page.JPG).
+
 * This page outlines the different types of social activities the charity offers.
 * A video highlights the latest events of the charity. This video would be regularly updated.
 * A photo gallery shows images from the various social gatherings and workshops the charity offers as part of their services.  This gallery would be regularly updated.
 * This feature fulfills the user stories: *As a regular user, I want to see the updated social page photos'* and *'As a new user, I want information on what services they offer'*.
 
 #### The 'Contact Us' Page
+A mockup of the Contact Us page can be found [here](assets/images/mockup_contactus_page.JPG).
+
 * This page provides information on the different ways the user can contact the charity (phone, email, physical address, query form).
 * The online 'Query Form' is located near the top of the page and is intended to provide users with a means to request information either by return email or through a return phone call.
 * Also included underneath the query form is an 'About Us' section, highlighting the the charity's history and available job opportunities.
@@ -97,6 +97,8 @@ As there is no JavaScript functionality present in this website, the Query Form 
 * [Google Fonts](https://fonts.google.com/) - utilised for the logo (Shadows Into Light); the headings (Roboto) and the body text (Poppins).
 * [Font Awesome](https://fontawesome.com/) - utilised for the social media icons.
 * [Coolors](https://coolors.co/) - utilised for the colour palette design.
+* [tinyjpg](https://tinyjpg.com/) - utilised for compression of all .jpg images.
+* [ami.responsivedesign](http://ami.responsivedesign.is/) - utilised for mockups of web pages.
 * [All Free Downloads](https://all-free-download.com/free-footage/) - utlised for the MP4 video.
 * [GitHub](https://github.com/) - hosting site for storage of source code for the website and [Git Pages](https://pages.github.com/) for the deployment of the website.
 * [Git](https://git-scm.com/) - used as version control software to commit and push code to a GitHub repository where all source code is located.
